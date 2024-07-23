@@ -1,0 +1,5 @@
+{
+    "save_logs": true,
+    "lang_file": ".\\Locales\\zh_CN.json",
+    "block_cache": ".\\Cache"
+}

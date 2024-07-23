@@ -1,0 +1,76 @@
+{
+    "sys.not_registered":"未注册安装路径，右键菜单注册将不可用。",
+    "sys.install_path":"注册的安装路径：",
+
+    "reg.menu.not_an_admin":"无管理员权限，请尝试以管理员身份运行。",
+    "reg.menu.not_registered":"未注册右键菜单，是否注册？ [Y/n]\n>>> ",
+    "reg.menu.failed":"注册右键菜单失败：",
+    "reg.menu.success":"成功注册右键菜单。",
+
+    "menu.send.file": "发送该文件",
+    "menu.send.folder": "发送该文件夹",
+    "menu.recv": "在此处接收文件（夹）",
+
+    "msg.task_end":"传输任务结束。",
+
+    "show_task.type":"任务类型：",
+    "show_task.file_count":"文件总数：",
+    "show_task.total_size":"总大小（B）：",
+    "show_task.choose_path":"路径：",
+    "show_task.thread_cnt":"使用线程数：",
+    "show_task.file_name":"文件（夹）名称：",
+
+    "send.launch.start": "以配置文件启动：\n",
+    "send.launch.show_local_ip": "本机IP：",
+    "send.launch.show_key": "在接收端输入所示标识 >>> {} <<<",
+    "send.launch.searching_client": "正在局域网内搜索接收端...",
+    "send.launch.client_found": "接收端地址：",
+    "send.launch.give_path":"指定需要发送的文件或文件夹路径。\n>>> ",
+    "send.launch.connected":"已连接到发送端，交换任务信息...",
+    "send.launch.argv":"从命令行参数接受发送文件路径：",
+
+    "send.prepare.folder":"发送文件夹路径信息...",
+    "send.work.loop":"进入任务循环...",
+    "send.work.end":"任务循环结束。",
+    "send.work.make_task":"为文件创建 {} 任务：",
+    "send.work.wait_quit":"等待发送线程退出...",
+
+    "send.exit":"发送完毕，正常退出。 ^u^",
+
+    "send.thread.start":"启动发送线程，ID：{}",
+    "send.thread.exit":"发送进程{}已退出：",
+    "send.thread.connect":"连接至接收端...",
+
+    "recv.launch.start":"本机IP: {} 使用端口: {}",
+    "recv.launch.give_save_folder":"指定保存文件的文件夹。\n>>> ",
+    "recv.launch.key_tip":"输入发送端显示的连接标识来自动连接。\n>>> ",
+    "recv.launch.fail_key":"连接标识格式不正确，请重新输入\n>>> ",
+    "recv.launch.searching":"正在局域网内搜索发送端...",
+    "recv.launch.wait_server":"等待发送端连接...",
+    "recv.launch.wait_timeout":"等待超时，按回车继续等待。[{}]",
+    "recv.launch.recv_task":"获得发送端连接：",
+    "recv.launch.argv":"从命令行参数接受保存文件路径：",
+
+    "recv.prepare.folder":"接收文件夹路径信息...",
+    "recv.prepare.folder_cnt":"接收到文件夹路径数：",
+    "recv.prepare.create_folder":"创建文件夹结构中...",
+    "recv.prepare.warn_skip":"已跳过的文件夹创建：",
+    "recv.prepare.recv_connect":"创建接收线程...",
+    "recv.prepare.cache":"分块文件缓存于：",
+
+    "recv.file_merge.loop":"启动文件整合循环...",
+    "recv.file_merge.stop":"停止文件整合循环:",
+    "recv.file_merge.new_merge":"新建文件整合任务[{}]：",
+    "recv.file_merge.new_block":"整合文件块 SID：{} Index：{}",
+
+    "recv.work.wait_quit":"等待接收线程退出...",
+
+    "recv.thread.start":"启动接收线程，ID：",
+    "recv.thread.end":"接收线程{}已退出：",
+    "recv.thread.bad_package":"接收超时或不正确的消息包。",
+    "recv.thread.recv_single":"已接收单文件：",
+    "recv.thread.recv_split":"已接收分块文件任务：",
+    "recv.thread.recv_block":"已接收文件块 SID：{} Index：{}",
+
+    "recv.exit":"接收完毕，正常退出。 ^u^"
+}

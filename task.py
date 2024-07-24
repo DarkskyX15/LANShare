@@ -1,7 +1,7 @@
 '''
 Date: 2024-07-17 19:25:23
 Author: DarkskyX15
-LastEditTime: 2024-07-23 23:19:47
+LastEditTime: 2024-07-24 13:52:14
 '''
 
 from time import sleep
@@ -48,7 +48,7 @@ class Msg:
 
 def get_task_config(task_path: str) -> dict[str, Any]:
     task_config: dict[str, Any]
-    task_path.removesuffix('\\')
+    task_path = task_path.removesuffix('\\')
     if path.isfile(task_path):
         task_config = {
             "task_type": 'file',

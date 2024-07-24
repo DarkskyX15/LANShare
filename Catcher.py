@@ -1,7 +1,7 @@
 '''
 Date: 2024-07-16 19:38:54
 Author: DarkskyX15
-LastEditTime: 2024-07-24 13:33:45
+LastEditTime: 2024-07-24 13:51:25
 '''
 
 from logger import ThreadLogger
@@ -66,7 +66,7 @@ if __name__ == '__main__':
     else:
         main_logger.info(lang_text('recv.launch.give_save_folder'), end='')
         save_folder = input()
-    save_folder.removesuffix('\\')
+    save_folder = save_folder.removesuffix('\\')
 
     # get key
     main_logger.info(lang_text('recv.launch.key_tip'), end='')

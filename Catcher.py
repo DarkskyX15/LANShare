@@ -1,7 +1,7 @@
 '''
 Date: 2024-07-16 19:38:54
 Author: DarkskyX15
-LastEditTime: 2024-07-23 23:18:08
+LastEditTime: 2024-07-24 13:33:45
 '''
 
 from logger import ThreadLogger
@@ -60,10 +60,13 @@ if __name__ == '__main__':
     # get save folder
     if len(argv) >= 2:
         save_folder = argv[1]
+        if save_folder.endswith('"'):
+            save_folder = save_folder[:-1] + '\\'
         main_logger.info(lang_text('recv.launch.argv'), save_folder)
     else:
         main_logger.info(lang_text('recv.launch.give_save_folder'), end='')
         save_folder = input()
+    save_folder.removesuffix('\\')
 
     # get key
     main_logger.info(lang_text('recv.launch.key_tip'), end='')

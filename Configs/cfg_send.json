@@ -1,6 +1,6 @@
 {
     "save_logs": true,
-    "thread_count": 20,
+    "thread_count": 24,
     "split_limit": "16MB",
     "lang_file": ".\\Locales\\zh_CN.json"
 }

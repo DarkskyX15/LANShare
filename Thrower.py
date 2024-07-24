@@ -1,7 +1,7 @@
 '''
 Date: 2024-07-16 14:23:04
 Author: DarkskyX15
-LastEditTime: 2024-07-23 23:09:40
+LastEditTime: 2024-07-24 13:35:28
 '''
 
 from tool import *
@@ -61,6 +61,8 @@ if __name__ == '__main__':
     # get target path
     if len(argv) >= 2:
         target_path = argv[1]
+        if target_path.endswith('"'):
+            target_path = target_path[:-1] + '\\'
         main_logger.info(lang_text('send.launch.argv'), target_path)
     else:
         main_logger.info(lang_text('send.launch.give_path'), end='')
